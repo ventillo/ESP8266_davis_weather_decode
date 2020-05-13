@@ -26,10 +26,14 @@ Memory isses forced me to pre-compile the main module to .mpy (more on that late
 Take a look at the post I made about the Arduino configuration.
 I'll include the INO and CPP files here, just for reference.
 https://spoton.cz/2017/11/24/davis-vantague-vue-arduino-and-a-raspberry-pi-3/
+This should be the result:
+![Arduino and CC1101](https://spoton.cz/wp-content/uploads/2017/11/DSC_0026_s.jpg)
 
 ### ESP8266 part
 Using a NodeMCU board, so wires can be attached directly to the board, or you can still
 use breadboard
+Together with the ESP8266.
+![esp8226 and arduino](https://spoton.cz/dsc_0403/)
 
 First, you need to flash your ESP8266 with a Mircopython image. Where to get it
 from and how to do that -> https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html
