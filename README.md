@@ -30,6 +30,6 @@ Using a NodeMCU board, so wires can be attached directly to the board, or you ca
 use breadboard
 
 First, you need to flash your ESP8266 with a Mircopython image. Where to get it
-from and how to do that -> [Here, https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html]
+from and how to do that -> https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html
 
 
