@@ -48,7 +48,10 @@ You need to flash your ESP8266 with a Mircopython image. Where to get it
 from and how to do that -> https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html
 
 ### Step 4 - freeze main.py
-You can do this with mpy-cross main.py
+You can do this with
+```
+mpy-cross main.py
+```
 (Get the mpy-cross via AUR, `yay -S mpy-cross`, or via pip, `pip install mpy-cross`)
 
 ### Step 5 - modify inet.conf
