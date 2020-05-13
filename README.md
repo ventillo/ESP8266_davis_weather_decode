@@ -169,7 +169,9 @@ Finally, what is going to be written and the real POST to influx.
  VALUE: 9.8
  TAGS: {'type': 'external'}
 ```
-POST write to ```SENDING TO: http://192.168.1.2:8086/write?db=weather_v2
+POST write to
+```
+SENDING TO: http://192.168.1.2:8086/write?db=weather_v2
 ```
 with data
 ```
