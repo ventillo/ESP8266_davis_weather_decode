@@ -31,15 +31,17 @@ This should be the result:
 
 ### Step 2, cpnnect to ESP8266
 Using a NodeMCU board, so wires can be attached directly to the board, or you can still
-use breadboard
-Together with the ESP8266.
+use breadboard together with the ESP8266.
+
 ![esp8226 and arduino](https://spoton.cz/wp-content/uploads/2020/05/DSC_0403-scaled-e1589367211334.jpg)
 Quite simple, you need the VCC and GND  to power the Arduino (Grren + Orange on
 the picture), then connect the RX and TX.
 | Arduino Pin | ESP Pin |
 |-------------|---------|
+| Vcc         | Vin     |
+| GND         | GND     |
 | RX          | TX      |
-| TX          | ESP RX  |
+| TX          | RX      |
 
 ### Step 3 - flash your ESP with the latest MircoPython
 You need to flash your ESP8266 with a Mircopython image. Where to get it
@@ -47,7 +49,7 @@ from and how to do that -> https://docs.micropython.org/en/latest/esp8266/tutori
 
 ### Step 4 - freeze main.py
 You can do this with mpy-cross main.py
-(Get the mpy-cross via AUR, yay -S mpy-cross, or via pip, pip install mpy-cross)
+(Get the mpy-cross via AUR, `yay -S mpy-cross`, or via pip, `pip install mpy-cross`)
 
 ### Step 5 - modify inet.conf
 You'll need to add your WiFi name (SSID) and password. I anticipate WPA
