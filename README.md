@@ -23,7 +23,9 @@ Memory isses forced me to pre-compile the main module to .mpy (more on that late
 
 # Step by step
 ### Arduino part
-(TBA)
+Take a look at the post I made about the Arduino configuration.
+I'll include the INO and CPP files here, just for reference.
+https://spoton.cz/2017/11/24/davis-vantague-vue-arduino-and-a-raspberry-pi-3/
 
 ### ESP8266 part
 Using a NodeMCU board, so wires can be attached directly to the board, or you can still
