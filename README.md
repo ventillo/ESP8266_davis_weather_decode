@@ -33,7 +33,7 @@ This should be the result:
 Using a NodeMCU board, so wires can be attached directly to the board, or you can still
 use breadboard
 Together with the ESP8266.
-![esp8226 and arduino](https://spoton.cz/dsc_0403/)
+![esp8226 and arduino](https://spoton.cz/wp-content/uploads/2020/05/DSC_0403-scaled.jpg)
 
 First, you need to flash your ESP8266 with a Mircopython image. Where to get it
 from and how to do that -> https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html
